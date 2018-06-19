@@ -24,6 +24,8 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C78CD862DE5FDC121AC6EF7F /* Pods_JGBaseModule_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86CA4EA47322554A8E533BB /* Pods_JGBaseModule_Tests.framework */; };
+		C9C2E8A020D9090800F94D61 /* JGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C2E89F20D9090800F94D61 /* JGTabBarController.m */; };
+		C9C2E8A320D9092800F94D61 /* JGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C2E8A220D9092800F94D61 /* JGNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,8 @@
 /* Begin PBXFileReference section */
 		0B290EDAB8F0518BA751781C /* Pods_JGBaseModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JGBaseModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DF42CC8EDA62E047EAA38E5 /* Pods-JGBaseModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGBaseModule_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JGBaseModule_Example/Pods-JGBaseModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3C6BBF2B5F4AABDD60FC421E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		56F1042BBA908D21460FF1EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3C6BBF2B5F4AABDD60FC421E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		56F1042BBA908D21460FF1EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JGBaseModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGBaseModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +68,11 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE555AC4E8879E2914B004E4 /* Pods-JGBaseModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGBaseModule_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JGBaseModule_Example/Pods-JGBaseModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C86CA4EA47322554A8E533BB /* Pods_JGBaseModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JGBaseModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF036AD41E04F54221C4DA6B /* JGBaseModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JGBaseModule.podspec; path = ../JGBaseModule.podspec; sourceTree = "<group>"; };
+		C9C2E89E20D9090800F94D61 /* JGTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JGTabBarController.h; path = ../../JGBaseModule/Classes/JGTabBarController.h; sourceTree = "<group>"; };
+		C9C2E89F20D9090800F94D61 /* JGTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JGTabBarController.m; path = ../../JGBaseModule/Classes/JGTabBarController.m; sourceTree = "<group>"; };
+		C9C2E8A120D9092800F94D61 /* JGNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JGNavigationController.h; path = ../../JGBaseModule/Classes/JGNavigationController.h; sourceTree = "<group>"; };
+		C9C2E8A220D9092800F94D61 /* JGNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JGNavigationController.m; path = ../../JGBaseModule/Classes/JGNavigationController.m; sourceTree = "<group>"; };
+		EF036AD41E04F54221C4DA6B /* JGBaseModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JGBaseModule.podspec; path = ../JGBaseModule.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +146,10 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				C9C2E89E20D9090800F94D61 /* JGTabBarController.h */,
+				C9C2E89F20D9090800F94D61 /* JGTabBarController.m */,
+				C9C2E8A120D9092800F94D61 /* JGNavigationController.h */,
+				C9C2E8A220D9092800F94D61 /* JGNavigationController.m */,
 			);
 			name = "Example for JGBaseModule";
 			path = JGBaseModule;
@@ -374,9 +384,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9C2E8A020D9090800F94D61 /* JGTabBarController.m in Sources */,
 				6003F59E195388D20070C39A /* JGAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JGViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				C9C2E8A320D9092800F94D61 /* JGNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,22 @@
+{
+  "name": "JGBaseModule",
+  "version": "0.1.0",
+  "summary": "A short description of JGBaseModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xuchuanjian/JGBaseModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xuchuanjian": "239330010@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/xuchuanjian/JGBaseModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JGBaseModule/Classes/**/*"
+}
